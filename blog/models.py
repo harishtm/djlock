@@ -3,6 +3,10 @@ from django.db import models, transaction, OperationalError
 # Create your models here.
 
 
+# https://lukeplant.me.uk/blog/posts/double-checked-locking-with-django-orm/
+# https://lukeplant.me.uk/blog/posts/evolution-of-a-django-repository-pattern/
+# https://medium.com/@alexandre.laplante/djangos-select-for-update-with-examples-and-tests-caff09414766
+
 """
 
 class Article(models.Model):
